@@ -58,7 +58,7 @@ Random assignment of percentages MUST follow this criteria:
 
 - Key = take the input session ID and concatenate it with the flag's timestamp
 - Hash = use the previous string as key for computing a Murmur3 (32b) hash
-- Mod = Take the modulo of the division of the hash by 100
+- Mod = take the modulo of the division of the hash by 100
 - Consider the rollout expression if Mod < percentage
 
 ## Client Operations
